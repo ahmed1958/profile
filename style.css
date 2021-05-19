@@ -21,14 +21,14 @@ header
   animation-fill-mode: forwards;
   animation-duration: 4s;
   position: absolute;
-  left: 40.08%;
+  left: 39%;
 }
 img
 {
   position: absolute;
   top: 150px;
   z-index: 1000;
- margin-left: 40.9%;
+ margin-left: 39%;
  border-radius: 150px;
 }
 .information
@@ -50,6 +50,9 @@ img
   header
   {
   width:100%;}
+  .name
+  {
+   line-height: 20px;}
 
 }
 .information span
