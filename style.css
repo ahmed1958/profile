@@ -1,0 +1,106 @@
+*
+{
+  font-size: 25px;
+  box-sizing: border-box;
+}
+body
+{
+  position: relative;
+}
+header
+{
+
+  height: 200px;
+  background-color: silver;
+}
+.name
+{
+  color: white;
+  line-height: 10px;
+  animation: ex;
+  animation-fill-mode: forwards;
+  animation-duration: 4s;
+  position: absolute;
+  left: 40.08%;
+}
+img
+{
+  position: absolute;
+  top: 150px;
+  z-index: 1000;
+ margin-left: 40.9%;
+ border-radius: 150px;
+}
+.information
+{
+ width: 80%;
+ text-align: center;
+ margin:auto;
+ padding-top: 200px;
+ box-shadow: 2px 2px  #888888;
+ margin-top: 15px;
+ padding-bottom: 15px;
+}
+.information span
+{
+  color: red;
+}
+.experience
+{
+  margin-top: 15px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+  line-height: 50px;
+}
+.box{
+height: 300px;
+background-color: gray;
+background-size: contain;
+width: 20%;
+margin: 25px;
+border: 5px solid #fff;
+}
+.skill_box
+{
+ display: flex;
+ justify-content: center;
+}
+@media screen and (max-width:800px) {
+  .skill_box
+  {
+  flex-direction: column;
+  }
+  .box
+  {
+    width: 100%;
+  }
+
+}
+.box:hover
+{
+  transform: translate(15px,-10px);
+ color: white;
+ box-shadow: 10px 10px gray;
+}
+footer
+{
+  height:50px;
+  text-align: center;
+  background-color: black;
+
+
+}
+footer a
+{
+  text-decoration: none;
+  color: white;
+}
+footer a:hover
+{
+  color: pink;
+}
+@keyframes ex {
+  0%   { top:-150px;}
+  100% { top:50px;}
+}
