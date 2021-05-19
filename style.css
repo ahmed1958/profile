@@ -55,6 +55,13 @@ img
    line-height: 20px;}
 
 }
+@media screen and (max-width:600px)
+{
+  img{
+  margin-left:30%;
+  }
+
+}
 .information span
 {
   color: red;
