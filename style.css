@@ -47,20 +47,22 @@ img
   {
   width:100%;
   }
-  header
-  {
-  width:100%;}
+  
   .name
   {
-   line-height: 20px;}
+   line-height: 20px;
+  left:20%;
+  }
 
 }
 @media screen and (max-width:600px)
 {
   img{
-  margin-left:30%;
+  margin-left:20%;
   }
-
+.information
+  {border:none;
+  }
 }
 .information span
 {
